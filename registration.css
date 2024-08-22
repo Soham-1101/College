@@ -1,0 +1,62 @@
+.logo img{
+    width: 250px;
+    height: 200px;
+    margin-top: -400px;
+    filter: brightness(1.5);
+}
+.logo{
+    margin-top: -350px;
+    margin-left: 50px;
+}
+.registration{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 550px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: #7baeff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px grey;
+    margin-left: -300px;
+    color: whitesmoke;
+}
+.registration h1{
+    margin-left: 45px;
+}
+.registration input{
+    margin-top: 20px;
+    height: 35px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.registration button{
+    margin-top: 10px;
+    width: 100px;
+    font-size: large;
+    margin-left: 80px;
+    height: 40px;
+    border: 2px solid rgb(84, 84, 249);
+    background-color: #2979ff;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+.registration p a{
+    color: blue;
+    text-decoration: none;
+}
+.registration p a:hover{
+    color: rgb(89, 89, 235);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8dcf9;
+    /* background-image: url("https://imgs.search.brave.com/CwdUcQzK2q9HB_muHIhXwnNZG8nWGrwSJlCynx0hOoA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMz/NzY2OTYzMC9waG90/by9mdWxsLWZyYW1l/LW9mLWJsYWNrLW5p/Z2h0LXNreS13aXRo/LXN0YXJzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1TZURy/Y1lWRmpWd0RLV0tN/aGV1cVRGQjdZcXh1/TGdEeXFHOXZqcnF0/em1nPQ"); */
+    background-size: 2000px 800px;
+    font-family: "Roboto Condensed", sans-serif;
+}
